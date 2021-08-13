@@ -1,0 +1,366 @@
+html, 
+body {
+    margin: 0;
+    background-color: #340d66;
+    font-family: 'Petrona', serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* The Start of the Page */
+header {
+    background-color: #200741;
+    padding: 2.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-nav {
+    position: absolute;
+    font-size: 26px;
+    left: 22.75%;
+}
+
+.main-nav > a {
+    margin: 22px;
+    font: white;
+    text-align: center;
+}
+
+a:link,
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(161, 161, 161);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+/*footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    background-color: #200741;
+    padding: 1.5rem;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+h4 {
+    display: inline;
+}
+.social {
+    display: inline;
+    font-size: 2rem;
+    float: right;
+}
+
+#ig{
+    color: #458eff;
+}
+
+#you {
+    color: red;
+}
+
+/* Body */
+
+.scholars {
+    text-align: center;
+    transform: translate(35%, 0%);
+}
+
+.logo {
+    height: 500px;
+    width: 500px;
+}
+
+.point {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+#down{
+    color: rgb(231, 228, 228);
+}
+
+.listen{
+    font-size: 52px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.reason {
+    position: absolute;
+    left: 10ch;
+    font-size: 28px;
+}
+
+
+
+/* HOW TO READ A BOOK */
+
+
+
+.howto {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.full {
+    position: relative; 
+    left: 5%;
+}
+
+dt {
+    font-size: 28px;
+    color: gold;
+}
+
+dd {
+    font-size: 22px;
+    color: white;
+    margin: 20px;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
+.fifty {
+    width: 45%
+}
+
+.fifty {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fifty {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* SPEED READING */
+
+.lies {
+    color: white;
+    text-align: center;
+}
+
+legend {
+    color: gold;
+    font-size: 2.2rem;
+}
+
+.total {
+    position: relative;
+    transform: translate(12%, 2%);
+    width: 50vw;
+    margin: 0;
+}
+
+.payment-option{
+    display: block;
+}
+
+
+.enter {
+    color: rgb(216, 216, 216);
+    display: block;
+}
+
+.submit {
+    background-color: rgb(83, 92, 75);
+    display: block;
+    font-size: 32px;
+    float: right;
+}
+
+
+.submit a:link {
+    color: gold;
+    text-decoration: none;
+}
+
+.submit a:hover {
+    color: none;
+}
+
+.one-3 {
+    width: 20%;
+    display: inline-lock;
+}
+
+.typing {
+    display: inline;
+}
+
+h3 {
+    color: gold;
+    font-size: 28px;
+}
+
+
+.Cards {
+    font-size: 3rem;
+}
+
+
+.second {
+    position: absolute;
+    transform: translate(200%, -640.30%);
+}
+
+.pied {
+    color: white;
+    font-size: 16px;
+}
+
+#info {
+    width: 150px;
+    height: 40px;
+    border: 1.6px gold;
+    border-radius: 3px;
+}
+
+input:focus {
+    background-color: #eee2ff;
+}
+
+.atwo {
+    display: inline;
+}
+
+/* Addition to Speed Reading */
+
+.invest { 
+    color: white; 
+    text-align: center;
+}
+
+.main-invest{
+    text-align: center;
+}
+
+
+
+/* Catalog */
+
+.images {
+    font-size: 40px;
+    transform: translate(5%, 0%);
+}
+
+
+.intro {
+    color: gold;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+table,
+th,
+td {
+    position:-ms-page;
+    border: 2px solid rgba(255, 217, 2, 0.493);
+    border-spacing: 15px;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+table {
+    transform: translate(5%, 0);
+}
+
+td {
+    font-size: 2rem;
+    font: white;
+    border-radius: 10px;
+}
+
+
+.bimage {
+    transition: transform 1.5s;
+}
+
+.bimage:hover {
+    transform: scale(0.1);
+}
+/*
+tr,
+td {
+    width: 10%;
+}
+*/
+
+tr:nth-child(even) {
+    background-color: #48227a;
+}
+
+td:nth-child(1) {
+    width: 15%;
+}
+
+
+td:nth-child(2) {
+    width: 12%;
+}
+
+td:nth-child(3) {
+    width: 0.00001%;
+}
+
+td:nth-child(4) {
+    width: 12%;
+}
+
+img {
+    display: flex;
+    height: 21rem;
+    width: 17rem;
+    transition: transform 1.5s;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
+.b100 {
+    color: white;
+    position: relative;
+    left: 45%;
+}
+
+.top {
+    position: relative;
+    font-size: 26px;
+}
